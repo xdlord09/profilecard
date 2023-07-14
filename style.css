@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Open+Sans:wght@500&family=PT+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:azure;
+    
+    border-radius: 12px;
+    max-width: 359px;
+    width: 100%;
+    height: 369px;
+    box-shadow: 5px 5px burlywood;
+
+}
+
+.image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 115px;
+    width: 118px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    padding: 3px;
+    margin: 22px;
+}
+
+.image .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    z-index: 1;
+}
+
+.container .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info .name{
+    font-size:larger;
+    font-weight: 500px;
+    padding: 3px;
+}
+
+.info .about{
+    font-size: large;
+    font-weight:250px;
+    padding: 5px;
+}
+
+.container .buttons .btn1{
+    background-color: rgb(218, 15, 83);
+    border-radius: 24px;
+    padding: 4px 20px;
+    margin-right: 55px;
+}
+
+.container .buttons .btn2{
+    background-color: rgb(218, 15, 83);
+    border-radius: 24px;
+    margin-left:20px;
+    padding: 4px 20px;
+}
+
+.buttons .btn1:hover{
+    background-color: brown;
+    transition: all 0.3s ease;
+}
+.buttons .btn2:hover{
+    background-color: brown;
+    transition: all 0.3s ease;
+}
+.icons{
+    padding: 5px;
+    margin: 5px;  
+}
+
+.icons .one,
+.icons .two,
+.icons .three,
+.icons .four{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+   
+   
+}
+.analytics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.analytics .data{
+    padding:10px;
+    margin-top: 20px;
+   
+}
+.analytics .data:hover{
+    background-color: blanchedalmond;
+    
+    border-radius:12px ;
+}
+
